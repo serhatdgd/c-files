@@ -17,6 +17,4 @@ int main ()
     scanf("%s",&myCity);
     printf("Your city is : %s",myCity);
     return 0;
-    
-
 }
