@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main()
-{
+{   /*
     int score;
     printf("Score: ");
     scanf("%d",&score);
@@ -15,5 +15,19 @@ int main()
         printf("Your score: %d\n\n",score);
     }
     printf("The program continues to run \n\n");
+    */
+    int myNumber;
+    printf("enter a number: ");
+    scanf("%d",&myNumber);
+    if (myNumber>0)
+    {
+        printf("The value is positive");
+    }
+    else if(myNumber<0)
+    {
+        printf("The value is negative");
+    }
+    else
+        printf("Your number is 0");
     return 0;
 }
