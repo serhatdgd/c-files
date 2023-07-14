@@ -28,7 +28,7 @@ int main()
         printf("The value is negative");
     }
     else
-        printf("Your number is 0")
+        printf("Your number is 0");
 /*
      Kısayol şart oluşturma
     (myNumber>0) ?(ise şartı bu) printf("your number is positive") :(else şartı bu) printf("your number is negative");
