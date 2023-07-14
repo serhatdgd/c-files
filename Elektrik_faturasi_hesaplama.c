@@ -15,9 +15,9 @@ int main()
 {
     float odenecekFatura,eskiBirimFiyat,yeniBirimFiyat;
     float enflasyon,eskiAboneUcreti,yeniAboneUcreti;
-    int yeniOkuma,eskiOkuma,toplamHarcananElektrik;
-    printf("Enflasyon oranini girin: ");
-    scanf("%f",&enflasyon);
+    int yeniOkuma,eskiOkuma,toplamHarcananElektrik;             
+    printf("Enflasyon oranini girin: ");                        
+    scanf("%f",&enflasyon);                                        
     printf("Onceki aya ait birim fiyat miktarini girin: ");
     scanf("%f",&eskiBirimFiyat);
     printf("Onceki aya ait abonelik ucretini girin: ");
