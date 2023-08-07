@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 }
 void countCharacters(char x[])
 {
-    int i, aCount=0, eCount=0;
+    int i, aCount = 0, eCount = 0;
     for (i = 0; x[i] != '.'; i++)
     {
         if (x[i] == 'A' || x[i] == 'a')
